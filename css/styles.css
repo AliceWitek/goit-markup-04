@@ -320,6 +320,18 @@ padding-top: 200px;
     margin: 0px;
     margin-top: 10px;
 }
+.our-customers-section{
+  height:372px;
+}
+    .our-customers-text{
+  font-size: 36px;
+line-height: 1,17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin-top:94px;
+}
+
 
 .footer-section {
     height: 252px;
@@ -478,3 +490,4 @@ letter-spacing: 0.03em;
   height: 70px;
 
 }  
+
