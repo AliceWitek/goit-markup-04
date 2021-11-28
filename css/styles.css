@@ -371,18 +371,36 @@ justify-content: center;
    fill:#AFB1B8;
  }
 .our-customers-section{
-  height:372px;
+  display: flex;
+  /* height:184px; */
+  margin:0 auto;
+  width:1170px;
+
 }
-    .our-customers-text{
-  font-size: 36px;
+.our-customers-text{
+font-size: 36px;
 line-height: 1,17;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 margin-top:94px;
 }
-
-
+.customer-icon{
+    width: 170px; 
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customer-icon:hover > .customer-icon{
+  fill: var(--main-color);
+}
+.customer-icon:hover,
+.customer-icon:focus{
+  fill: var(--main-color);
+}
 .footer-section {
     
     background: #2F303A;
@@ -390,10 +408,13 @@ margin-top:94px;
 }
 
 .footer {
-    width: 1200px;
+     width:1200px;
+     height:252px;
     padding-top: 60px;
     padding-bottom: 60px;
+  
 }
+
 
 .logo-footer {
     font-family: Raleway;
@@ -538,6 +559,12 @@ background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
 height: 404px;
+
+}
+
+.project-list:hover,
+.project-list:focus{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-card{
