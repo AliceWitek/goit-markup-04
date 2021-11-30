@@ -375,6 +375,12 @@ justify-content: center;
   /* height:184px; */
   margin:0 auto;
   width:1170px;
+  flex-direction: column;
+
+}
+.customers-icon-container{
+  display:flex;
+flex-direction: row;
 
 }
 .our-customers-text{
@@ -384,6 +390,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 margin-top:94px;
+flex-direction: column;
 }
 .customer-icon{
     width: 170px; 
@@ -393,7 +400,8 @@ margin-top:94px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    margin:0 auto;
+  }
 .customer-icon:hover > .customer-icon{
   fill: var(--main-color);
 }
@@ -401,6 +409,14 @@ margin-top:94px;
 .customer-icon:focus{
   fill: var(--main-color);
 }
+
+.footer-container{
+  width:1200px;
+   margin:0 auto;
+   display: flex;
+
+}
+
 .footer-section {
     
     background: #2F303A;
@@ -412,8 +428,8 @@ margin-top:94px;
      height:252px;
     padding-top: 60px;
     padding-bottom: 60px;
-  
-}
+display: flex;
+flex-direction: column;}
 
 
 .logo-footer {
@@ -462,9 +478,17 @@ margin-top:94px;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.03em;
-    margin-top: 12px;
-    margin-left: 70px;
+    margin:0 auto;
+    padding-left: 70px;
+     margin-right:863px;
     color:#fff;
+  display:flex;
+  flex-direction: column;
+}
+
+.social-footer-text{
+  margin-top:72px;
+  margin-bottom:20px; 
 }
 .social-icon-footer{
   background-color: rgba(255, 255, 255, 0.1);
@@ -482,7 +506,7 @@ margin-top:94px;
   display:flex;
    width: 206px;
     height: 44px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     justify-content: space-between;
 }
 /*PORTFOLIO FILTERS*/
