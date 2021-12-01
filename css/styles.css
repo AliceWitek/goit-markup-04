@@ -189,6 +189,7 @@ padding-top: 200px;
     color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .advantages-section {
@@ -372,15 +373,15 @@ justify-content: center;
  }
 .our-customers-section{
   display: flex;
-  /* height:184px; */
   margin:0 auto;
   width:1170px;
   flex-direction: column;
-
+ 
 }
-.customers-icon-container{
+.customers-icons-container{
   display:flex;
 flex-direction: row;
+margin-bottom: 83px;
 
 }
 .our-customers-text{
@@ -389,7 +390,8 @@ line-height: 1,17;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-margin-top:94px;
+margin-top:102px;
+margin-bottom: 50px;
 flex-direction: column;
 }
 .customer-icon{
@@ -400,16 +402,28 @@ flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:0 auto;
+    margin:0 auto; 
+    flex-direction: row;
+  
   }
-.customer-icon:hover > .customer-icon{
-  fill: var(--main-color);
-}
 .customer-icon:hover,
 .customer-icon:focus{
-  fill: var(--main-color);
+  border-color: var(--main-color);
+  cursor: pointer;
+
 }
 
+.customer-svg{
+  fill:#AFB1B8;
+  
+}
+ .customer-svg:hover,
+ .customer-svg:focus{
+   fill:var(--main-color);
+    cursor: pointer;
+ }
+ 
+  
 .footer-container{
   width:1200px;
    margin:0 auto;
