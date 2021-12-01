@@ -120,10 +120,10 @@ nav {
 .logo-link:focus,
 .contact-link:hover,
 .contact-link:focus,
-.mail-nav:hover,
-.mail-nav:focus,
-.tel-nav:hover,
-.tel-nav:focus,
+.mail:hover,
+.mail:focus,
+.tel:hover,
+.tel:focus,
 .logo-footer:hover,
 .logo-footer:focus,
 .mail-footer:hover,
@@ -132,6 +132,13 @@ nav {
 .tel-footer:focus {
     color: var(--main-color);
     cursor: pointer;
+}
+
+.mail-icon:hover,
+.mail-icon:focus,
+.tel-icon:hover,
+.tel-icon:focus{
+  fill: var(--main-color);
 }
 
 .mail {
@@ -153,6 +160,8 @@ nav {
     font-weight: 500;
     font-size: 14px;
     color: #757575;
+    
+    justify-content: center;
 }
 
 .slogan-section {
