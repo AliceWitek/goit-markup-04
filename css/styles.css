@@ -160,17 +160,15 @@ nav {
     font-weight: 500;
     font-size: 14px;
     color: #757575;
-    
-    justify-content: center;
 }
 
 .slogan-section {
     height: 600px; 
-    background: #2F303A;
+     background: #2F303A;
     background-image:linear-gradient(rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
-                    url("/images/advantages-img.jpg") 
-}
+                    url("/images/advantages-img.jpg");
+} 
 
 .company-slogan {
     display: flex;
