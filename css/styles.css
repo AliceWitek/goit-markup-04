@@ -56,6 +56,10 @@ header {
     text-decoration: none;
     
 }
+.mail-icon,
+tel-icon{
+  fill:#757575;
+}
 
 .web {
     color:var(--main-color);
@@ -130,24 +134,29 @@ nav {
     cursor: pointer;
 }
 
-.mail-nav {
+.mail {
     margin-left: 371px;
     font-weight: 500;
     font-size: 14px;
-    letter-spacing: 0.02em;
     color: #757575;
+    display: flex;
+    justify-content: space-between;
 }
 
-.tel-nav {
+ .tel-icon,
+.mail-icon{
+  margin-right:10px;
+  } 
+
+.tel {
     margin-left: 50px;
     font-weight: 500;
     font-size: 14px;
-    letter-spacing: 0.02em;
     color: #757575;
 }
 
 .slogan-section {
-    height: 600px;
+    height: 600px; 
     background: #2F303A;
     background-image:linear-gradient(rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)),
