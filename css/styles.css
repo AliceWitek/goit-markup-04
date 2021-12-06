@@ -170,6 +170,8 @@ nav {
                     rgba(47, 48, 58, 0.4)), 
                       url("../images/advantages-img.jpg");
                       background-repeat: no-repeat;
+                      background-size: cover;
+                      background-position: center;
                     
 } 
 
@@ -505,7 +507,15 @@ flex-direction: column;}
 /*////////////PORTFOLIO///////////*/
 .portfolio-container {
    background: #ffffff;
+   width: 1200px;
+    /* height: 100%; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
+
+.portfolio-list{}
 .social-footer{
   text-transform: uppercase;
     font-size: 14px;
@@ -543,6 +553,14 @@ flex-direction: column;}
     justify-content: space-between;
 }
 /*PORTFOLIO FILTERS*/
+.portfolio-section{
+  /* height: 1548px; */
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+
 
 .filters-list {
   width: 572px;
@@ -602,7 +620,7 @@ flex-direction: column;}
  flex-wrap:wrap;
   /* margin-top: -10px; */
   margin-bottom:64px;
- margin-left:234px;
+ margin-left: -46px;
  
 }
 
